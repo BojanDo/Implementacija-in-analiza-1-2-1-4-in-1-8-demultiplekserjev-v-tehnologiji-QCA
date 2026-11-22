@@ -2,6 +2,8 @@ import csv
 import sys
 from pathlib import Path
 
+#  This file was generated using LLM, and hand checked.
+
 inputs = ["S2", "S1", "S0", "D"]
 outputs = [f"Y{i}" for i in range(8)]
 # Default exhaustive CV run: 700000 steps, 32 cycles, one sample per 234 steps.
